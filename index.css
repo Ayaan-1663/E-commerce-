@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn-add {
+  background-color: #ff6f61;
+  border: none;
+}
+
+.btn-add:hover {
+  background-color: #e85a4f;
+}
